@@ -5,5 +5,5 @@ services:
     build: .
     image: my-static-site      # ← This sets the actual image name
     ports:
-      - "8080:80"
+      - "8081:80"
     container_name: my-static-site
